@@ -11,7 +11,7 @@ Assume you have a table of product sales records (including columns Product_name
         count(case when quarter(Transaction_date) = 2 then 1 end) as Q2, 
         count(case when quarter(Transaction_date) = 3 then 1 end) as Q3, 
         count(case when quarter(Transaction_date) = 4 then 1 end) as Q4
-    from series_inventory where ... group by Product_name
+    from table where ... group by Product_name
 
 Resulting output should be a table where each line represents a product and each column shows the number of products sold during the respective calendar quarter. This is only the basic skeleton, more layers of complexity can added (e.g. in the "where" part). Also, other aggregation functions like e.g. sum(), min(), max(), avg() should work as well.
 
