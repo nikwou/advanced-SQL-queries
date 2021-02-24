@@ -1,6 +1,8 @@
+# Advanced SQL queries
+
 This repository is an ongoing collection effort of not-so-easy SQL query challenges I've come across.
 
-# Pivot queries
+## Pivot queries
 
 Assume you have a table of product sales records (including columns Product_name and Transaction_date); and want to know how many products were sold per calendar quarter
 
