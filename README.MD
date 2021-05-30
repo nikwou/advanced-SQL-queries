@@ -26,3 +26,4 @@ Assume you have a table that stores e.g. closing prices for various stock-listed
 
 A where clause may be added for additional filtering.
 
+... to be continued ...
